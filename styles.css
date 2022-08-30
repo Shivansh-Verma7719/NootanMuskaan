@@ -1,0 +1,389 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.fa {
+  text-decoration: none;
+  color:black;
+  margin-left: 20px;
+}
+.fa:hover{
+  color:black;
+  opacity:70%;
+}
+
+.top-bar{
+    display:flexbox;
+    overflow: auto;
+    padding: 2px;
+    font-weight: 700;
+    padding-left: 50px;
+
+    
+}
+@media (max-width:768px){
+  #foo{
+    display: none;
+  }
+  
+}
+.social-icon-pull-right {
+    text-decoration: none;
+    color: black;
+    float: right;
+    padding: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+}
+
+.button{
+  text-align: center;
+  border-radius: 7px;
+  float: right;
+}
+
+
+/* LOGO */
+.logo-bar {
+    display: flex;
+    background-color: teal;
+    
+
+}
+.logo-bar img {
+    width: 100px;
+    padding-left: 3%;
+}
+/*----------------------------------------------------------------*/
+.navbar-nav>li {
+  padding-left: 20px;
+  padding-right: 10px;
+  font-size: 20px;
+}
+.first{
+  margin-left: 100px;
+}
+.nav-item {
+  font-weight: 400;
+}
+
+.navbar {
+  background: linear-gradient(94deg, rgba(215,215,215,1) 0%, rgba(83,119,170,1) 50%, rgba(27,88,142,1) 83%);
+  width: 100%;
+  height: 83px;
+  width: 100%;
+  padding: 20px;
+  
+}
+@media (max-width: 768px){
+  .navbar{
+    background: linear-gradient(94deg, rgba(215,215,215,1) 0%, rgba(83,119,170,1) 50%, rgba(27,88,142,1) 83%);
+      width: 100%;
+      height: auto;
+      
+  }
+  .first{
+    margin-left:0px;
+  }
+}
+.navbar-brand img{
+      max-height: 85px;
+      max-width: 120px;
+
+}
+
+/* =================================================================*/
+
+.carousel-inner>.carousel-item>img {
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 720px;
+}
+
+@media (max-width: 768px) {
+  
+}
+
+
+
+/* =================================================================*/
+.box-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.box {
+  text-align: center;
+  padding: 20px;
+  width: 33.333333%;
+  
+}
+
+.box a {
+  text-decoration: none;
+  color: white;
+}
+
+.box a:hover {
+  color: white;
+}
+
+.box p {
+  font-size: 20px;
+}
+.box strong{
+  font-size: 25px;
+}
+
+.box:hover{
+  background: linear-gradient(94deg, rgba(96, 153, 236, 1) 0%, rgba(89, 139, 212, 1) 50%, rgba(70, 101, 146, 1) 100%);
+}
+
+@media (max-width:768px)
+  {
+
+  .box-container {
+   flex-direction: column;
+    flex-grow: 1;
+  width: 100%;
+  flex-shrink: 0;
+  }
+  .box{
+    flex-grow: 1;
+      width: 100%;
+      flex-shrink: 0;
+  }
+}
+
+.box1{
+  background-color: #6099EC;
+  
+}
+.box2{
+  background-color: #598BD4;
+  
+
+}
+.box3{
+  background-color: #466592;
+  
+
+}
+
+/* =================================================================*/
+.about{
+  margin: 30px;
+  margin-left: 10%;
+}
+.about strong {
+  font-weight: bold;
+  font-size: 40px;
+}
+.about_container{
+  display:flex;
+}
+
+/* =================================================================*/
+
+.stats {
+  text-align: center;
+    padding: 3%;
+    border: 0.2px solid #E5E5E5;
+    padding-right: 3%;
+}
+
+.stats strong {
+  font-size: 20px;
+}
+
+.stats p {
+  font-size: 35px;
+  padding-top: 20px;
+  color: grey;
+}
+
+
+
+/* ==================================================================*/
+
+footer{
+  border-top: 1px solid;
+  display: flex;
+  background-color: #598BD4;
+  flex-direction: row;
+  padding: 50px;
+  flex: 1 1 0px;
+  color: white;
+}
+
+footer div{
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.site-map a{
+  text-decoration: none;
+  color: white
+}
+
+.site-map a:hover{
+  text-decoration: none;
+  color: white;
+}
+/* ==================================================================================================*/
+
+.initiatives {
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+
+
+
+.initiatives strong {
+
+  font-weight: bold;
+    font-size: 40px;
+    padding: 20px;
+  
+}
+
+.gallery {
+  margin-right: 0px;
+}
+
+.gallery img {
+  width: 100%;
+  height: 250px;
+}
+
+/*                                    our_team.html                                                   */
+/* ===================================================================================================*/
+
+.team_container{
+  display: flex;
+  overflow: auto;
+}
+
+.team {
+  margin: 30px 0px 30px 3%;
+  width: 90%;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+
+  .team_container {
+    display: flexbox;
+    flex-direction: column;
+    align-items: center;
+      justify-content: center;
+
+  }
+
+  .first {
+    order: 2;
+  }
+}
+
+.team strong {
+  font-weight: bold;
+  font-size: 35px;
+}
+
+
+.team-img {
+  border-radius: 50%;
+  padding: 10px;
+}
+
+/*                                   join.html                                                   */
+/* ===================================================================================================*/
+.join-container strong {
+  font-weight: bold;
+    font-size: 35px;
+}
+.join {
+  margin: 30px 0px 30px 3%;
+}
+
+/*                                   donate.html                                                   */
+/* ===================================================================================================*/
+.donate-container strong {
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.donate {
+  margin: 30px 0px 30px 3%;
+}
+
+/*                                   gallery.html                                                   */
+/* ===================================================================================================*/
+.gallery-container {
+  margin: 25px;
+  
+}
+
+.gallery-container strong {
+  font-weight: bold;
+    font-size: 35px;
+}
+
+#gallery {
+  line-height: 0;
+  -webkit-column-count: 5;
+  /* split it into 5 columns */
+  -webkit-column-gap: 8px;
+  /* give it a 5px gap between columns */
+  -moz-column-count: 5;
+  -moz-column-gap: 8px;
+  column-count: 5;
+  column-gap: 8px;
+  
+}
+
+#gallery img {
+  width: 100% !important;
+  height: auto !important;
+  margin-bottom: 8px;
+  /* to match column gap */
+
+}
+
+
+@media (max-width: 1200px) {
+  #gallery {
+    -moz-column-count: 4;
+    -webkit-column-count: 4;
+    column-count: 4;
+  }
+}
+
+@media (max-width: 1000px) {
+  #gallery {
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-count: 3;
+  }
+}
+
+@media (max-width: 800px) {
+  #gallery {
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+  }
+}
+
+@media (max-width: 400px) {
+  #gallery {
+    -moz-column-count: 1;
+    -webkit-column-count: 1;
+    column-count: 1;
+  }
+}
