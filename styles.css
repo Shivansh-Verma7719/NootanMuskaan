@@ -106,7 +106,9 @@ body {
 }
 
 @media (max-width: 768px) {
-  
+  .carousel-inner>.carousel-item>img {
+  height: 400px;
+  }
 }
 
 
