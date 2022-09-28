@@ -128,7 +128,7 @@ body {
 
 @media (max-width: 768px) {
   .carousel-inner>.carousel-item>img {
-  height: 350px;
+  height: 325px;
   }
 }
 
