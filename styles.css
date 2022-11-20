@@ -260,12 +260,16 @@ footer div{
 }
 /* ==================================================================================================*/
 
-.initiatives {
-  margin-top: 2%;
-  margin-bottom: 5%;
+.initiatives_container {
+  
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+.initiatives_heading {
+  margin-left: 7%;
 }
 
-.initiatives strong {
+.initiatives_container strong {
 
   font-weight: bold;
     font-size: 40px;
